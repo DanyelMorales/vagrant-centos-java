@@ -1,2 +1,3 @@
-# vagrant-centos-java
-Vagrant development envy with Java &amp; Centos 6.7
+# Vagrant Java Centos
+Vagrant dev environment for Java 7 &amp; Centos 6.7
+
