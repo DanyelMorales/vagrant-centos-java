@@ -7,7 +7,14 @@ all:
 	make build  
 	make run 
 
-.PHONY: build
+.PHONY: rebuild
+rebuild:
+	vagrant destroy
+	vagrant up  
+	vagrant provision   
+	vagrant rsync 
+
+.PHONY: build	
 build:
 	vagrant up  
 	vagrant provision   
